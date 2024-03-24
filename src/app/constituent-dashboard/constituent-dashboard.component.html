@@ -1,0 +1,10 @@
+<lib-tab-menu [items]="items" (activeItemChange)="onActiveItemChange($event)" #libTabMenu></lib-tab-menu>
+<div *ngIf="currentTab && currentTab.label == cardLabelEnum.LEROM">
+    <CardsComponent></CardsComponent>
+</div>
+<div *ngIf="currentTab && currentTab.label == cardLabelEnum.IPSUM">
+    <CardsComponent></CardsComponent>
+</div>
+<div *ngIf=" currentTab && currentTab.label== cardLabelEnum.DOLOR">
+    <CardsComponent></CardsComponent>
+</div>
