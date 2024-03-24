@@ -1,5 +1,5 @@
 export interface IState {
-    leromContent: any;
+    leromContent: any; // later convert into interface.
     ipsumContent: any;
     dolorContent: any;
 }
