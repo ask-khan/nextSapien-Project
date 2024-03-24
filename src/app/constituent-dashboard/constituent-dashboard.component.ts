@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ITEMS } from '../constants/Item.constant';
 import { CardLabelEnum } from '../enums/card-label.enum';
 import { MenuItem } from '../interfaces/menu-item.interface';
 
@@ -16,21 +17,7 @@ export class ConstituentDashboardComponent implements OnInit {
     this.cardLabelEnum = CardLabelEnum;
   }
   ngOnInit(): void {
-    this.items = [
-      {
-        label: "Lerom",
-        Description: "Lerom Description"
-      },
-      {
-        label: "Ipsum",
-        Description: "Ipsum Description"
-      },
-      {
-        label: "Dolor",
-        Description: "Dolor Description"
-      },
-
-    ]
+    this.items = ITEMS
   }
 
   onActiveItemChange($event: MenuItem) {
