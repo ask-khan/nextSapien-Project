@@ -1,4 +1,4 @@
-export const items = [
+export const ITEMS = [
     {
         label: "Lerom",
         Description: "Lerom Description"
