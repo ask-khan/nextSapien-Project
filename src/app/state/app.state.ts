@@ -1,5 +1,7 @@
+import { ILeromCard, IpsumCard } from '../interfaces/lerom-card.interface';
+
 export interface IState {
-    leromContent: any; // later convert into interface.
-    ipsumContent: any;
-    dolorContent: any;
+    leromContent: ILeromCard[]; // later convert into interface.
+    ipsumContent: IpsumCard[];
+    dolorContent: IpsumCard[];
 }

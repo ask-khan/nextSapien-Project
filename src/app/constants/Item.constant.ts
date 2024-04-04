@@ -9,7 +9,8 @@ export const ITEMS = [
     },
     {
         label: "Dolor",
-        Description: "Dolor Description"
+        Description: "Dolor Description",
+        icon: "pi pi-lock pi-lock"
     },
 
 ]

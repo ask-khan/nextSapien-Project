@@ -42,6 +42,7 @@ $ns-outlook-add-in-theme: mat.define-dark-theme(
 
 @import 'assets/styles/dark.scss';
 @import 'assets/styles/typography.scss';
+@import "primeicons/primeicons.css";
 @import '../node_modules/nextsapien-component-lib/src/lib/shared-styles/styles.scss';
 
 body {
